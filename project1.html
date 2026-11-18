@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DreamSpace</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="css/project1.css">
+</head>
+
+<body>
+    <div class="dashboard">
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+
+            <h2>DreamSpace</h2>
+
+            <nav>
+                <a href="project1.html" class="active">
+                    <i class="fa-solid fa-house"></i>
+                    <span>Home</span>
+                </a>
+                
+
+                <a href="tasks.html">
+                    <i class="fa-solid fa-square-check"></i>
+                    <span>Tasks</span>
+                </a>
+
+                <a href="progress.html">
+                    <i class="fa-solid fa-chart-simple"></i>
+                    <span>Progress</span>
+                </a>
+
+                <a href="settings.html">
+                    <i class="fa-solid fa-gear"></i>
+                    <span>Settings</span>
+                </a>
+            </nav>
+
+        </aside>
+
+        <!-- Main Area -->
+        <main class="main-content">
+
+            <!-- Top Navigation -->
+            <header class="topbar">
+                <input type="search" placeholder="Search anything...">
+
+                <div class="account">
+                    <span><i class="fa-regular fa-bell notification"></i></span>
+                    <span class="d">D</span>
+                </div>
+            </header>
+
+
+            <!-- HOME CONTENT -->
+            <section class="home-content">
+
+                <!-- WELCOME BANNER -->
+                <div class="welcome-banner">
+
+                    <!-- WELCOME TEXT -->
+                    <div class="welcome-text">
+
+                        <h1>
+                            Welcome to <span>DreamSpace!</span>
+                        </h1>
+
+                        <h2>Explore. Learn. Achieve.</h2>
+
+                        <button>
+                            Get Started
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+
+                    </div>
+
+                    <!-- PLANET -->
+                    <div class="planet-area">
+
+                        <div class="planet">
+                            <div class="planet-ring"></div>
+                        </div>
+
+                    </div>
+
+                    <!-- STAR ICONS -->
+                    <i class="fa-solid fa-star star star-one"></i>
+                    <i class="fa-solid fa-star star star-two"></i>
+                    <i class="fa-solid fa-star star star-three"></i>
+                    <i class="fa-solid fa-star star star-four"></i>
+
+                </div>
+
+
+                <!-- SHORTCUT CARDS -->
+                <div class="shortcut-cards">
+
+                    <!-- TASKS CARD -->
+                    <div class="shortcut-card tasks-card">
+
+                        <i class="fa-solid fa-circle-check"></i>
+
+                        <div>
+                            <h3>Tasks</h3>
+                            <p>Manage your work</p>
+                        </div>
+
+                    </div>
+
+
+                    <!-- PROGRESS CARD -->
+                    <div class="shortcut-card progress-card">
+
+                        <i class="fa-solid fa-chart-column"></i>
+
+                        <div>
+                            <h3>Progress</h3>
+                            <p>Track your growth</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- TODAY'S QUOTE -->
+                <div class="quote-card">
+
+                    <i class="fa-solid fa-quote-left"></i>
+
+                    <h3>Today's Quote</h3>
+
+                    <p id="quote-main">
+                        "Great things are done by a series
+                        of small things brought together."
+                    </p>
+
+                    <span id="quote-author">— Vincent van Gogh</span>
+
+                </div>
+            </section>
+
+        </main>
+
+    </div>
+
+
+
+
+
+    <script src="scripts/storage.js"></script>
+    <script src="scripts/project1.js"></script>
+</body>
+
+</html>
